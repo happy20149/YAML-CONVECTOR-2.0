@@ -665,7 +665,12 @@ bool testSpecificC2H4Data(const std::string& yamlFile) {
                     passed = false;
                     results.failureMessages.push_back(speciesName + ": Composition mismatch");
                     std::cout << " " << speciesName << ": Composition mismatch, Expected: H:1, Actual: ";
-                    for (const auto& [element, count] : actual.composition) {
+                    //for (const auto& [element, count] : actual.composition) {
+                    //    std::cout << element << ":" << count << " ";
+                    //}
+                    for (const auto& pair : actual.composition) {
+                        const auto& element = pair.first;
+                        const auto& count = pair.second;
                         std::cout << element << ":" << count << " ";
                     }
                     std::cout << std::endl;
@@ -708,7 +713,11 @@ bool testSpecificC2H4Data(const std::string& yamlFile) {
 
                 // Verify composition
                 std::map<std::string, double> expectedComp = { {"C", 1.0}, {"H", 1.0}, {"O", 1.0} };
-                for (const auto& [element, count] : expectedComp) {
+                //for (const auto& [element, count] : expectedComp) 
+                //{
+                for (const auto& pair : expectedComp) {
+                    const auto& element = pair.first;
+                    const auto& count = pair.second;
                     if (actual.composition.find(element) == actual.composition.end() ||
                         !isEqual(actual.composition.at(element), count)) {
                         passed = false;
@@ -790,7 +799,10 @@ bool testSpecificC2H4Data(const std::string& yamlFile) {
 
                 // Verify composition
                 std::map<std::string, double> expectedComp = { {"C", 2.0}, {"H", 5.0}, {"O", 3.0} };
-                for (const auto& [element, count] : expectedComp) {
+                //for (const auto& [element, count] : expectedComp) {
+                for (const auto& pair : expectedComp) {
+                    const auto& element = pair.first;
+                    const auto& count = pair.second;
                     if (actual.composition.find(element) == actual.composition.end() ||
                         !isEqual(actual.composition.at(element), count)) {
                         passed = false;
@@ -913,7 +925,10 @@ bool testSpecificC2H4Data(const std::string& yamlFile) {
                     {"H2", 2.5}, {"H2O", 12.0}, {"CO", 1.5}, {"CO2", 2.0}, {"CH4", 2.0}
                 };
 
-                for (const auto& [species, eff] : expectedEfficiencies) {
+                //for (const auto& [species, eff] : expectedEfficiencies) {
+                for (const auto& pair : expectedEfficiencies) {
+                    const auto& species = pair.first;
+                    const auto& eff = pair.second;
                     if (actual.efficiencies.find(species) == actual.efficiencies.end() ||
                         !isEqual(actual.efficiencies.at(species), eff, 0.01)) {
                         passed = false;
@@ -1001,7 +1016,10 @@ bool testSpecificC2H4Data(const std::string& yamlFile) {
                     {"H2O", 7.65}, {"H2", 3.7}, {"CO", 2.8}
                 };
 
-                for (const auto& [species, eff] : expectedEfficiencies) {
+                //for (const auto& [species, eff] : expectedEfficiencies) {
+                for (const auto& pair : expectedEfficiencies) {
+                    const auto& species = pair.first;
+                    const auto& eff = pair.second;
                     if (actual.efficiencies.find(species) == actual.efficiencies.end() ||
                         !isEqual(actual.efficiencies.at(species), eff, 0.01)) {
                         passed = false;

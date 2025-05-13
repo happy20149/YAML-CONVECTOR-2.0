@@ -106,7 +106,10 @@ void ChemistryIO::YamlValue::print(int indent) const {
         break;
     case Type::Map:
         std::cout << indentStr << "{" << std::endl;
-        for (const auto& [key, value] : m_map) {
+        //for (const auto& [key, value] : m_map) {
+        for (const auto& pair : m_map) {
+            const auto& key = pair.first;
+            const auto& value = pair.second;
             std::cout << indentStr << "  " << key << ": ";
             value.print(indent + 4);
         }

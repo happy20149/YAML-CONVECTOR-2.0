@@ -194,7 +194,10 @@ std::vector<ChemistryVars::ReactionData> ChemistryVars::extractKinetics(const st
                     const auto& effs = rxnData.at("efficiencies").asMap();
                     if (verbose) std::cout << "  第三体效率:" << std::endl;
 
-                    for (const auto& [species, eff] : effs) {
+                    //for (const auto& [species, eff] : effs) {
+                    for (const auto& pair : effs) {
+                        const auto& species = pair.first;
+                        const auto& eff = pair.second;
                         try {
                             double value = eff.asNumber();
                             reactionItem.efficiencies[species] = value;
@@ -348,7 +351,10 @@ std::vector<ChemistryVars::ReactionData> ChemistryVars::extractKinetics(const st
                     const auto& orders = rxnData.at("orders").asMap();
                     if (verbose) std::cout << "  特殊反应级数:" << std::endl;
 
-                    for (const auto& [species, order] : orders) {
+                    //for (const auto& [species, order] : orders) {
+                    for (const auto& pair : orders) {
+                        const auto& species = pair.first;
+                        const auto& order = pair.second;
                         try {
                             double value = order.asNumber();
                             reactionItem.orders[species] = value;
@@ -477,7 +483,10 @@ std::vector<ChemistryVars::ThermoData> ChemistryVars::extractThermo(const std::s
                     const auto& composition = speciesData.at("composition").asMap();
                     if (verbose) std::cout << "  组成: ";
 
-                    for (const auto& [element, count] : composition) {
+                    //for (const auto& [element, count] : composition) {
+                    for (const auto& pair : composition) {
+                        const auto& element = pair.first;
+                        const auto& count = pair.second;
                         try {
                             double value = count.asNumber();
                             thermoItem.composition[element] = value;
@@ -1112,13 +1121,19 @@ void ChemistryVars::analyzeMechanism(const MechanismData& mechanism, bool printD
 
         // 打印反应物及其化学计量数
         std::cout << "  反应物:" << std::endl;
-        for (const auto& [species, coeff] : reactants) {
+        //for (const auto& [species, coeff] : reactants) {
+        for (const auto& pair : reactants) {
+            const auto& species = pair.first;
+            const auto& coeff = pair.second;
             std::cout << "    " << species << ": " << coeff << std::endl;
         }
 
         // 打印产物及其化学计量数
         std::cout << "  产物:" << std::endl;
-        for (const auto& [species, coeff] : products) {
+        //for (const auto& [species, coeff] : products) {
+        for (const auto& pair : products) {
+            const auto& species = pair.first;
+            const auto& coeff = pair.second;
             std::cout << "    " << species << ": " << coeff << std::endl;
         }
 
@@ -1202,7 +1217,10 @@ void ChemistryVars::analyzeMechanism(const MechanismData& mechanism, bool printD
         // 显示第三体效率（对于任何可能有第三体效率的反应）
         if (!reaction.efficiencies.empty()) {
             std::cout << "  第三体效率:" << std::endl;
-            for (const auto& [species, eff] : reaction.efficiencies) {
+            //for (const auto& [species, eff] : reaction.efficiencies) {
+            for (const auto& pair : reaction.efficiencies) {
+                const auto& species = pair.first;
+                const auto& eff = pair.second;
                 std::cout << "    " << species << ": " << eff << std::endl;
             }
         }
@@ -1215,7 +1233,10 @@ void ChemistryVars::analyzeMechanism(const MechanismData& mechanism, bool printD
         // 如果有特殊反应级数，打印出来
         if (!reaction.orders.empty()) {
             std::cout << "  特殊反应级数:" << std::endl;
-            for (const auto& [species, order] : reaction.orders) {
+            //for (const auto& [species, order] : reaction.orders) {
+            for (const auto& pair : reaction.orders) {
+                const auto& species = pair.first;
+                const auto& order = pair.second;
                 std::cout << "    " << species << ": " << order << std::endl;
             }
         }
