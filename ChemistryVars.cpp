@@ -1,5 +1,4 @@
-﻿// ChemistryVars.cpp
-#include "ChemistryVars.h"
+﻿#include "ChemistryVars.h"
 #include "ChemistryIO.h"
 #include <iostream>
 #include <sstream>
@@ -17,7 +16,9 @@ std::vector<ChemistryVars::ReactionData> ChemistryVars::extractKinetics(const st
             std::cerr << "错误: YAML根节点必须是映射表类型" << std::endl;
             return results;
         }
-
+        /*在 YAML 文件格式中，根节点通常是一个映射表（map）结构，即键值对集合。
+        ChemistryIO::YamlValue 类封装了 YAML 节点的不同类型，而 asMap() 方法将节点转换为 C++ 中
+        的 std::map<std::string, YamlValue> 类型，便于后续访问。*/
         const auto& root = doc.asMap();
 
         // 检查是否存在反应节点
@@ -131,6 +132,8 @@ std::vector<ChemistryVars::ReactionData> ChemistryVars::extractKinetics(const st
                         }
                     }
                 }
+
+
                 // 普通反应的速率常数或falloff反应的高压极限（如果high-P-rate-constant未提供）
                 else if (rxnData.count("rate-constant") && rxnData.at("rate-constant").isMap()) {
                     const auto& rate = rxnData.at("rate-constant").asMap();
@@ -443,20 +446,20 @@ std::vector<ChemistryVars::ThermoData> ChemistryVars::extractThermo(const std::s
 
         const auto& root = doc.asMap();
 
-        // 检查是否存在物种节点
+        // 检查是否存在组分节点
         if (!root.count("species")) {
-            if (verbose) std::cout << "未找到物种数据" << std::endl;
+            if (verbose) std::cout << "未找到组分数据" << std::endl;
             return results;
         }
 
-        // 获取物种列表
+        // 获取组分列表
         const auto& speciesList = root.at("species").asSequence();
-        if (verbose) std::cout << "找到 " << speciesList.size() << " 个物种" << std::endl;
+        if (verbose) std::cout << "找到 " << speciesList.size() << " 个组分" << std::endl;
 
-        // 统计有效NASA7数据的物种数量
+        // 统计有效NASA7数据的组分数量
         int validNASA7Count = 0;
 
-        // 遍历所有物种
+        // 遍历所有组分
         for (size_t i = 0; i < speciesList.size(); i++) {
             try {
                 const auto& species = speciesList[i];
@@ -465,9 +468,9 @@ std::vector<ChemistryVars::ThermoData> ChemistryVars::extractThermo(const std::s
                 const auto& speciesData = species.asMap();
                 ThermoData thermoItem;
 
-                if (verbose) std::cout << "\n物种 #" << (i + 1) << ":" << std::endl;
+                if (verbose) std::cout << "\n组分 #" << (i + 1) << ":" << std::endl;
 
-                // 物种名称
+                // 组分名称
                 if (speciesData.count("name")) {
                     try {
                         thermoItem.name = speciesData.at("name").asString();
@@ -478,7 +481,7 @@ std::vector<ChemistryVars::ThermoData> ChemistryVars::extractThermo(const std::s
                     }
                 }
 
-                // 物种组成
+                // 组分组成
                 if (speciesData.count("composition") && speciesData.at("composition").isMap()) {
                     const auto& composition = speciesData.at("composition").asMap();
                     if (verbose) std::cout << "  组成: ";
@@ -791,15 +794,15 @@ std::vector<ChemistryVars::ThermoData> ChemistryVars::extractThermo(const std::s
             }
             catch (const std::exception& e) {
                 if (verbose) {
-                    std::cerr << "处理物种 #" << (i + 1) << " 时出错: " << e.what() << std::endl;
-                    std::cerr << "继续处理下一个物种..." << std::endl;
+                    std::cerr << "处理组分 #" << (i + 1) << " 时出错: " << e.what() << std::endl;
+                    std::cerr << "继续处理下一个组分..." << std::endl;
                 }
             }
         }
 
         // 输出NASA7数据统计
         if (verbose) {
-            std::cout << "\n总结: 找到 " << results.size() << " 个物种，其中 "
+            std::cout << "\n总结: 找到 " << results.size() << " 个组分，其中 "
                 << validNASA7Count << " 个有完整有效的NASA7热力学数据" << std::endl;
         }
     }
@@ -826,19 +829,19 @@ std::vector<ChemistryVars::TransportData> ChemistryVars::extractTransport(const 
 
         const auto& root = doc.asMap();
 
-        // 检查是否存在物种节点
+        // 检查是否存在组分节点
         if (!root.count("species")) {
-            if (verbose) std::cout << "未找到物种数据" << std::endl;
+            if (verbose) std::cout << "未找到组分数据" << std::endl;
             return results;
         }
 
-        // 获取物种列表
+        // 获取组分列表
         const auto& speciesList = root.at("species").asSequence();
-        if (verbose) std::cout << "找到 " << speciesList.size() << " 个物种" << std::endl;
+        if (verbose) std::cout << "找到 " << speciesList.size() << " 个组分" << std::endl;
 
         int speciesWithTransport = 0;
 
-        // 遍历所有物种
+        // 遍历所有组分
         for (size_t i = 0; i < speciesList.size(); i++) {
             try {
                 const auto& species = speciesList[i];
@@ -846,7 +849,7 @@ std::vector<ChemistryVars::TransportData> ChemistryVars::extractTransport(const 
 
                 const auto& speciesData = species.asMap();
 
-                // 仅处理有输运数据的物种
+                // 仅处理有输运数据的组分
                 if (!speciesData.count("transport") || !speciesData.at("transport").isMap()) {
                     continue;
                 }
@@ -854,21 +857,21 @@ std::vector<ChemistryVars::TransportData> ChemistryVars::extractTransport(const 
                 speciesWithTransport++;
                 TransportData transportItem;
 
-                // 物种名称
+                // 组分名称
                 if (speciesData.count("name")) {
                     try {
                         transportItem.name = speciesData.at("name").asString();
                     }
                     catch (const std::exception&) {
-                        transportItem.name = "未知物种";
+                        transportItem.name = "未知组分";
                     }
                 }
                 else {
-                    transportItem.name = "未知物种";
+                    transportItem.name = "未知组分";
                 }
 
                 if (verbose) {
-                    std::cout << "\n物种 #" << (i + 1) << " (" << transportItem.name << ") 输运性质:" << std::endl;
+                    std::cout << "\n组分 #" << (i + 1) << " (" << transportItem.name << ") 输运性质:" << std::endl;
                 }
 
                 // 获取输运数据
@@ -968,14 +971,14 @@ std::vector<ChemistryVars::TransportData> ChemistryVars::extractTransport(const 
             }
             catch (const std::exception& e) {
                 if (verbose) {
-                    std::cerr << "处理物种 #" << (i + 1) << " 输运性质时出错: " << e.what() << std::endl;
-                    std::cerr << "继续处理下一个物种..." << std::endl;
+                    std::cerr << "处理组分 #" << (i + 1) << " 输运性质时出错: " << e.what() << std::endl;
+                    std::cerr << "继续处理下一个组分..." << std::endl;
                 }
             }
         }
 
         if (verbose) {
-            std::cout << "\n总计: " << speciesWithTransport << " 个物种具有输运性质数据" << std::endl;
+            std::cout << "\n总计: " << speciesWithTransport << " 个组分具有输运性质数据" << std::endl;
         }
 
     }
@@ -1052,20 +1055,20 @@ void ChemistryVars::parseReactionEquation(const std::string& equation,
                 size_t endPos;
                 stoich = std::stod(token, &endPos);
 
-                // 如果整个token是数字，等待下一个token作为物种名
+                // 如果整个token是数字，等待下一个token作为组分名
                 if (endPos == token.length()) {
                     expectSpecies = false;
                     continue;
                 }
 
-                // 否则，剩余部分是物种名
+                // 否则，剩余部分是组分名
                 std::string speciesName = token.substr(endPos);
                 species[speciesName] += stoich;
                 stoich = 1.0;
                 expectSpecies = true;
             }
             else if (!expectSpecies) {
-                // 前面读到了系数，这个是物种名
+                // 前面读到了系数，这个是组分名
                 species[token] += stoich;
                 stoich = 1.0;
                 expectSpecies = true;
@@ -1097,8 +1100,8 @@ void ChemistryVars::analyzeMechanism(const MechanismData& mechanism, bool printD
     // 打印基本摘要信息
     std::cout << "成功加载机理数据:" << std::endl;
     std::cout << "  " << mechanism.reactions.size() << " 个反应" << std::endl;
-    std::cout << "  " << mechanism.thermoSpecies.size() << " 个物种热力学数据" << std::endl;
-    std::cout << "  " << mechanism.transportSpecies.size() << " 个物种输运性质数据" << std::endl;
+    std::cout << "  " << mechanism.thermoSpecies.size() << " 个组分热力学数据" << std::endl;
+    std::cout << "  " << mechanism.transportSpecies.size() << " 个组分输运性质数据" << std::endl;
 
     // 如果不需要打印详细信息，直接返回
     if (!printDetails) {

@@ -1,10 +1,10 @@
-// ChemistryVars.h
+
 #pragma once
 #include <string>
 #include <vector>
 #include <map>
 
-// 从MechanismStructs.h直接移植的数据结构
+
 class ChemistryVars {
 public:
     // 反应数据结构
@@ -107,7 +107,7 @@ public:
         std::vector<TransportData> transportSpecies;
     };
 
-    // 从MechanismParser.h移植的函数接口
+    
     static std::vector<ReactionData> extractKinetics(const std::string& yamlFile, bool verbose = false);
     static std::vector<ThermoData> extractThermo(const std::string& yamlFile, bool verbose = false);
     static std::vector<TransportData> extractTransport(const std::string& yamlFile, bool verbose = false);
@@ -125,7 +125,7 @@ public:
         std::map<std::string, double>& reactants,
         std::map<std::string, double>& products);
 
-private:
-    // 内部变量
-    MechanismData m_mechanismData;
+//private:
+//    
+//    MechanismData m_mechanismData;
 };
