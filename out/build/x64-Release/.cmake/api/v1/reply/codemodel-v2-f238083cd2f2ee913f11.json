@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-82a2d4dc579c281185c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "YamlConvector2_IdealGas",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cantera_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cantera_demo-RelWithDebInfo-1c9d2d661af115e79f0a.json",
+					"name" : "cantera_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "comprehensive_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-comprehensive_demo-RelWithDebInfo-f9ba5c3edd7a20ac879c.json",
+					"name" : "comprehensive_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_idealgas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_idealgas-RelWithDebInfo-7013e44cde8b1fad4a4e.json",
+					"name" : "demo_idealgas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exact_cantera_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exact_cantera_test-RelWithDebInfo-20897855509bcce9928c.json",
+					"name" : "exact_cantera_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "idealgas_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-idealgas_core-RelWithDebInfo-392ccc14ba18a6a654cd.json",
+					"name" : "idealgas_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "integration_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-integration_test-RelWithDebInfo-3f03d1ecc0baebe24ba2.json",
+					"name" : "integration_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_test-RelWithDebInfo-c6d8c4d8ab9063e3dcee.json",
+					"name" : "simple_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yaml_convector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yaml_convector-RelWithDebInfo-f5feb9b67dc1faa9ddc7.json",
+					"name" : "yaml_convector",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/\u601d\u6717-\u76f8\u5173\u8d44\u6599/cantera\u91cd\u6784-5.27/yaml-convector-2.0/yaml-convector-2.0/out/build/x64-Release",
+		"source" : "D:/\u601d\u6717-\u76f8\u5173\u8d44\u6599/cantera\u91cd\u6784-5.27/yaml-convector-2.0/yaml-convector-2.0"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

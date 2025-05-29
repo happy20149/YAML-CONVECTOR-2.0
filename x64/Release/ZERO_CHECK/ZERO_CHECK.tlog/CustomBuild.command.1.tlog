@@ -1,0 +1,10 @@
+^D:\思朗-相关资料\CANTERA重构-5.27\YAML-CONVECTOR-2.0\YAML-CONVECTOR-2.0\CMAKEFILES\561602AB54D36B98B8361585797DE3E8\GENERATE.STAMP.RULE
+setlocal
+D:\cmake\bin\cmake.exe -SD:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0 -BD:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/YamlConvector2_IdealGas.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

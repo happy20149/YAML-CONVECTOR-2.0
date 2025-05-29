@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\test_density_fix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2B9E4F19-13FF-3483-BDDA-301E7EB297C4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

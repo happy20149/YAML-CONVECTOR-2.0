@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\ChemistryVars.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\ChemistryIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\IdealGasPhase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\ChemistryVars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\ChemistryIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\IdealGasPhase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2CEAD81A-7833-346D-82B5-0CA47EA9B92D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2B9E4F19-13FF-3483-BDDA-301E7EB297C4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

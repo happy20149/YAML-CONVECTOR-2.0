@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\CMakeFiles\561602ab54d36b98b8361585797de3e8\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C5E04F99-E9D6-3791-A88A-DF898B44DD0D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

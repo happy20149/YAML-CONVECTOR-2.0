@@ -49,25 +49,25 @@ std::vector<ChemistryVars::ReactionData> ChemistryVars::extractKinetics(const st
                     catch (const std::exception& e) {
                         if (verbose) std::cerr << "  方程式错误: " << e.what() << std::endl;
 
-                        // 处理特殊情况
-                        if (rxnData.at("equation").isNumber()) {
-                            double numPrefix = rxnData.at("equation").asNumber();
-                            if (verbose) std::cout << "  (实际是数值类型: " << numPrefix << ")" << std::endl;
+                        //// 处理特殊情况
+                        //if (rxnData.at("equation").isNumber()) {
+                        //    double numPrefix = rxnData.at("equation").asNumber();
+                        //    if (verbose) std::cout << "  (实际是数值类型: " << numPrefix << ")" << std::endl;
 
-                            // 尝试重建反应方程式
-                            int reactionNum = static_cast<int>(i + 1);
-                            if (reactionNum == 4) {
-                                reactionItem.equation = "2 O + M <=> O2 + M";
-                            }
-                            else if (reactionNum == 134) {
-                                reactionItem.equation = "2 CH3 <=> H + C2H5";
-                            }
-                            else {
-                                reactionItem.equation = std::to_string(static_cast<int>(numPrefix)) + " [未知反应]";
-                            }
+                        //    // 尝试重建反应方程式
+                        //    int reactionNum = static_cast<int>(i + 1);
+                        //    if (reactionNum == 4) {
+                        //        reactionItem.equation = "2 O + M <=> O2 + M";
+                        //    }
+                        //    else if (reactionNum == 134) {
+                        //        reactionItem.equation = "2 CH3 <=> H + C2H5";
+                        //    }
+                        //    else {
+                        //        reactionItem.equation = std::to_string(static_cast<int>(numPrefix)) + " [未知反应]";
+                        //    }
 
-                            if (verbose) std::cout << "  重建方程式: " << reactionItem.equation << std::endl;
-                        }
+                        //    if (verbose) std::cout << "  重建方程式: " << reactionItem.equation << std::endl;
+                        //}
                     }
                 }
 

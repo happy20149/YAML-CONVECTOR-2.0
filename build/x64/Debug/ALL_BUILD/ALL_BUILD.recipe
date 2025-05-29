@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\build\bin\Debug\cantera_demo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\build\bin\Debug\comprehensive_demo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\build\bin\Debug\demo_idealgas.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\build\bin\Debug\exact_cantera_test.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\build\bin\Debug\integration_test.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\build\bin\Debug\simple_test.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\build\bin\Debug\test_density_fix.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\build\bin\Debug\yaml_convector.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\build\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

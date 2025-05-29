@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\comprehensive_demo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:comprehensive_demo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\IdealGasPhase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IdealGasPhase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\vs2022\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\gs_report.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\vs2022\\VC\\Tools\\MSVC\\14.43.34808\\include\\vector||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|CMake \u6982\u8FF0\u9875||{B1CAA5B0-FEB1-4350-8AB9-F895876842F2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "gs_report.c",
+              "DocumentMoniker": "C:\\vs2022\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\gs_report.c",
+              "ToolTip": "C:\\vs2022\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\gs_report.c",
+              "ViewState": "AgIAAM4AAAAAAAAAAIA2wNsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-28T03:19:32.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "vector",
+              "DocumentMoniker": "C:\\vs2022\\VC\\Tools\\MSVC\\14.43.34808\\include\\vector",
+              "ToolTip": "C:\\vs2022\\VC\\Tools\\MSVC\\14.43.34808\\include\\vector",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAawNEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-28T03:19:31.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IdealGasPhase.cpp",
+              "DocumentMoniker": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\IdealGasPhase.cpp",
+              "RelativeDocumentMoniker": "IdealGasPhase.cpp",
+              "ToolTip": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\IdealGasPhase.cpp",
+              "RelativeToolTip": "IdealGasPhase.cpp",
+              "ViewState": "AgIAAFgBAAAAAAAAAAAwwBABAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-28T01:55:35.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "comprehensive_demo.cpp",
+              "DocumentMoniker": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\comprehensive_demo.cpp",
+              "RelativeDocumentMoniker": "comprehensive_demo.cpp",
+              "ToolTip": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\comprehensive_demo.cpp",
+              "RelativeToolTip": "comprehensive_demo.cpp",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAHcAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-27T02:51:00.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CMake \u6982\u8FF0\u9875",
+              "DocumentMoniker": "CMake \u6982\u8FF0\u9875",
+              "ToolTip": "CMake \u6982\u8FF0\u9875",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-27T01:59:59.869Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
