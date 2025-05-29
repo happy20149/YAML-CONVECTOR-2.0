@@ -21,6 +21,9 @@
     <ClInclude Include="D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\IdealGasPhase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\MechanismTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\CMakeLists.txt" />

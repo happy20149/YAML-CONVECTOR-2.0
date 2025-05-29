@@ -1,0 +1,2 @@
+D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\bin\Debug\yaml-cpp.dll
+D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\yaml_convector.dir\Debug\yaml_con.9B38F701.Up2Date

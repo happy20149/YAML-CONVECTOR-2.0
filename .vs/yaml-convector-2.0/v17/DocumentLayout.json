@@ -3,18 +3,28 @@
   "WorkspaceRootPath": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\IdealGasPhase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IdealGasPhase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\comprehensive_demo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:comprehensive_demo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\IdealGasPhase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IdealGasPhase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\comprehensive_demo.vcxproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:comprehensive_demo.vcxproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\vs2022\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\gs_report.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\ChemistryVars.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChemistryVars.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\vs2022\\VC\\Tools\\MSVC\\14.43.34808\\include\\vector||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\ChemistryIO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChemistryIO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\ChemistryIO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChemistryIO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|CMake \u6982\u8FF0\u9875||{B1CAA5B0-FEB1-4350-8AB9-F895876842F2}"
@@ -27,62 +37,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "gs_report.c",
-              "DocumentMoniker": "C:\\vs2022\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\gs_report.c",
-              "ToolTip": "C:\\vs2022\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\gs_report.c",
-              "ViewState": "AgIAAM4AAAAAAAAAAIA2wNsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-05-28T03:19:32.443Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "vector",
-              "DocumentMoniker": "C:\\vs2022\\VC\\Tools\\MSVC\\14.43.34808\\include\\vector",
-              "ToolTip": "C:\\vs2022\\VC\\Tools\\MSVC\\14.43.34808\\include\\vector",
-              "ViewState": "AgIAAMUAAAAAAAAAAAAawNEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-28T03:19:31.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IdealGasPhase.cpp",
-              "DocumentMoniker": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\IdealGasPhase.cpp",
-              "RelativeDocumentMoniker": "IdealGasPhase.cpp",
-              "ToolTip": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\IdealGasPhase.cpp",
-              "RelativeToolTip": "IdealGasPhase.cpp",
-              "ViewState": "AgIAAFgBAAAAAAAAAAAwwBABAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-28T01:55:35.051Z",
+              "DocumentIndex": 0,
+              "Title": "IdealGasPhase.h",
+              "DocumentMoniker": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\IdealGasPhase.h",
+              "RelativeDocumentMoniker": "IdealGasPhase.h",
+              "ToolTip": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\IdealGasPhase.h",
+              "RelativeToolTip": "IdealGasPhase.h",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-29T07:35:13.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "comprehensive_demo.cpp",
-              "DocumentMoniker": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\comprehensive_demo.cpp",
-              "RelativeDocumentMoniker": "comprehensive_demo.cpp",
-              "ToolTip": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\comprehensive_demo.cpp",
-              "RelativeToolTip": "comprehensive_demo.cpp",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAHcAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-27T02:51:00.35Z",
+              "DocumentIndex": 2,
+              "Title": "comprehensive_demo.vcxproj",
+              "DocumentMoniker": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\comprehensive_demo.vcxproj",
+              "RelativeDocumentMoniker": "comprehensive_demo.vcxproj",
+              "ToolTip": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\comprehensive_demo.vcxproj",
+              "RelativeToolTip": "comprehensive_demo.vcxproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000698|",
+              "WhenOpened": "2025-05-29T07:08:10.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChemistryVars.h",
+              "DocumentMoniker": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\ChemistryVars.h",
+              "RelativeDocumentMoniker": "ChemistryVars.h",
+              "ToolTip": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\ChemistryVars.h",
+              "RelativeToolTip": "ChemistryVars.h",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-29T06:29:46.524Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ChemistryIO.cpp",
+              "DocumentMoniker": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\ChemistryIO.cpp",
+              "RelativeDocumentMoniker": "ChemistryIO.cpp",
+              "ToolTip": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\ChemistryIO.cpp",
+              "RelativeToolTip": "ChemistryIO.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-29T06:29:31.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChemistryIO.h",
+              "DocumentMoniker": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\ChemistryIO.h",
+              "RelativeDocumentMoniker": "ChemistryIO.h",
+              "ToolTip": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\ChemistryIO.h",
+              "RelativeToolTip": "ChemistryIO.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-29T06:29:25.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "comprehensive_demo.cpp",
+              "DocumentMoniker": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\comprehensive_demo.cpp",
+              "RelativeDocumentMoniker": "comprehensive_demo.cpp",
+              "ToolTip": "D:\\\u601D\u6717-\u76F8\u5173\u8D44\u6599\\cantera\u91CD\u6784-5.27\\yaml-convector-2.0\\yaml-convector-2.0\\comprehensive_demo.cpp*",
+              "RelativeToolTip": "comprehensive_demo.cpp*",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAG8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-29T06:21:32.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CMake \u6982\u8FF0\u9875",
               "DocumentMoniker": "CMake \u6982\u8FF0\u9875",
               "ToolTip": "CMake \u6982\u8FF0\u9875",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-27T01:59:59.869Z"
+              "WhenOpened": "2025-05-29T04:09:49.306Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-6c3f76ff4f1e0be0e3e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "YamlConvector2_IdealGas_Minimal",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "comprehensive_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-comprehensive_demo-Debug-1a5c1b10ea0e38d2fe12.json",
+					"name" : "comprehensive_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "idealgas_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-idealgas_core-Debug-2f1c5fa1fc334c9ded9e.json",
+					"name" : "idealgas_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yaml_convector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yaml_convector-Debug-43c372064183dcbd44c5.json",
+					"name" : "yaml_convector",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/\u601d\u6717-\u76f8\u5173\u8d44\u6599/cantera\u91cd\u6784-5.27/yaml-convector-2.0/yaml-convector-2.0/out/build/x64-Debug",
+		"source" : "D:/\u601d\u6717-\u76f8\u5173\u8d44\u6599/cantera\u91cd\u6784-5.27/yaml-convector-2.0/yaml-convector-2.0"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

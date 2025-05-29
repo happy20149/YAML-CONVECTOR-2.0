@@ -85,23 +85,7 @@ void testYAMLLoading() {
             std::cout << "Falling back to manual species setup..." << std::endl;
         }
         
-        // 如果YAML加载失败，手动添加必要的物种
-        if (!yamlLoaded || gas.nSpecies() == 0) {
-            std::cout << "Adding species manually..." << std::endl;
-            
-            //// 添加测试所需的物种 (根据实际的h2o2.yaml内容)
-            //gas.addSpecies("H2O", 18.015);    // 水
-            //gas.addSpecies("H2", 2.016);      // 氢气
-            //gas.addSpecies("AR", 39.948);     // 氩气
-            //gas.addSpecies("O2", 31.998);     // 氧气
-            //gas.addSpecies("OH", 17.007);     // 羟基
-            //gas.addSpecies("H", 1.008);       // 氢原子
-            //gas.addSpecies("O", 15.999);      // 氧原子
-            //gas.addSpecies("HO2", 33.007);    // 过氧化氢基
-            //gas.addSpecies("H2O2", 34.015);   // 过氧化氢
-            
-            std::cout << "Manually added " << gas.nSpecies() << " species" << std::endl;
-        }
+
         
         // 显示前几个组分
         size_t maxShow = std::min(static_cast<size_t>(10), gas.nSpecies());

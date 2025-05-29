@@ -1,2 +1,0 @@
-D:\Chemkin-to-Yaml\yaml-convector-2.0\yaml-convector-2.0\x64\Debug\yaml-con.35333E26.Up2Date
-D:\思朗-相关资料\cantera重构-5.27\yaml-convector-2.0\yaml-convector-2.0\x64\Debug\yaml-con.35333E26.Up2Date

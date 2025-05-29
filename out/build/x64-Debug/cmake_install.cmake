@@ -41,39 +41,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/ChemistryVars.h"
     "D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/ChemistryIO.h"
     "D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/IdealGasPhase.h"
+    "D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/MechanismTest.h"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/out/build/x64-Debug/bin/simple_test.exe")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/out/build/x64-Debug/bin/integration_test.exe")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/out/build/x64-Debug/bin/cantera_demo.exe")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/out/build/x64-Debug/bin/comprehensive_demo.exe")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/out/build/x64-Debug/bin/demo_idealgas.exe")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/out/build/x64-Debug/bin/exact_cantera_test.exe")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/out/build/x64-Debug/bin/test_enhanced_setState_TPX.exe")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/out/build/x64-Debug/bin/test_target_density.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

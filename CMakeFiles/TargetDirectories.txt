@@ -1,12 +1,5 @@
 D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/CMakeFiles/idealgas_core.dir
-D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/CMakeFiles/simple_test.dir
-D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/CMakeFiles/integration_test.dir
-D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/CMakeFiles/cantera_demo.dir
 D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/CMakeFiles/comprehensive_demo.dir
-D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/CMakeFiles/demo_idealgas.dir
-D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/CMakeFiles/exact_cantera_test.dir
-D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/CMakeFiles/test_enhanced_setState_TPX.dir
-D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/CMakeFiles/test_target_density.dir
 D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/CMakeFiles/yaml_convector.dir
 D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/CMakeFiles/RUN_TESTS.dir
 D:/思朗-相关资料/cantera重构-5.27/yaml-convector-2.0/yaml-convector-2.0/CMakeFiles/INSTALL.dir
